@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATORS - Menu</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1> Gators - Menu </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="selections">
+                <section id="sizes">
+                    <h2>Choose Your Size</h2>
+                    <select id="sizeSelect">
+                        <option value="">Select Size</option>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </section>
+
+                <section id="flavors">
+                    <h2>Our Flavors</h2>
+                    <ul id="flavorList"></ul>
+                </section>
+
+                <section id="toppings">
+                    <h2>Toppings</h2>
+                    <select id="toppingSelect">
+                        <option value="">Select Topping</option>
+                        <option value="sprinkles">Sprinkles</option>
+                        <option value="chocolate_chips">Chocolate Chips</option>
+                        <option value="whipped_cream">Whipped Cream</option>
+                    </select>
+                </section>
+            </div>
+
+            <button id="checkoutButton" disabled>Checkout</button>
+        </main>
+
+        <footer>
+            <p>&copy; GATORS Est.2002 </p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
